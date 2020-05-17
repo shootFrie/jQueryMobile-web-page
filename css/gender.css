@@ -1,0 +1,273 @@
+/* 个人性别选择 */
+.contain .c-middle {
+	display: flex;
+	margin: 22vh auto;
+}
+
+.contain .c-middle .grid-cell {
+	flex: 1;
+	margin-left: 1.25rem;
+	text-align: center;
+}
+
+.contain .c-middle .grid-cell img {
+	display: block;
+	border-radius: 50%;
+	margin: 0 auto;
+	max-width: 6.5625rem;
+	max-height: 6.5625rem;
+}
+
+.contain .c-middle .grid-cell .img_active {
+	border: 2px solid #233EEE;
+}
+
+.contain .c-middle .grid-cell span {
+	display: block;
+	margin-top: 1.3125rem;
+	font-size: 1.125rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+	line-height: 25px;
+
+}
+
+.secrecy {
+	display: block;
+	width: 12.3125rem;
+	height: 2.125rem;
+	font-size: 0.75rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(153, 153, 153, 1);
+	line-height: 1.0625rem;
+	margin: 0 auto;
+}
+
+/* 家庭结构 */
+.famliy-wrap {
+	margin: 5vh auto;
+}
+
+.famliy {
+	height: 4.625rem;
+	background: #F3F6FD;
+	border-radius: 0.3125rem;
+	text-align: center;
+	line-height: 4.625rem;
+	margin-bottom: 1.0625rem;
+	position: relative;
+}
+
+.famliy-wrap .active {
+	background-color: #E5EDFF;
+}
+
+.famliy span {
+	float: left;
+	font-size: 1rem;
+	font-family: PingFangSC-Regular;
+	position: absolute;
+	left: 35%;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+}
+
+.famliy img {
+	float: left;
+}
+
+.famliy .famliy-img-1 {
+	width: 1.5rem;
+	height: 4.625rem;
+	float: left;
+	margin-left: 1.875rem;
+	margin-top: 0.75rem;
+}
+
+.famliy .famliy-img-2 {
+	width: 2.75rem;
+	height: 5.3125rem;
+	margin-left: 1rem;
+}
+
+.famliy .famliy-img-3 {
+	width: 6.875rem;
+    height: 6.875rem;
+	margin-top: -0.875rem;
+}
+
+
+/* 赡养父母 */
+#parent .child-num{
+	margin-top: 18vh;
+}
+
+.parent .parent-text {
+	display: block;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+	line-height: 1.25rem;
+	margin-bottom: 3.5rem;
+}
+
+/* 单身生日 */
+#selfbirth{display: none;}
+#selfbirth .child-num {
+	margin: 15vh auto;
+	text-align: center;
+}
+
+.selfbirth .num-1 {
+	width: 4.1875rem;
+	height: 4.1875rem;
+	line-height: 4.1875rem;
+	text-align: center;
+}
+
+.d-fix a {
+	text-decoration: none;
+}
+
+.selfbirth .grid-cell  div{
+	position:relative;
+	padding-left: 5vh;
+	    width: 75%;
+}
+.selfbirth .grid-cell .dataText {
+	font-size: 15px;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(153, 153, 153, 1);
+	line-height: 21px;
+	border:none;
+}
+
+.child-num .arrow {
+	position: absolute;
+    left: 79%;
+    top: 45%;
+}
+
+.next {
+	width: 12.4375rem;
+	height: 2.875rem;
+	background: rgba(74, 159, 255, 1);
+	border-radius: 0.3125rem;
+	border: none;
+	color: #fff;
+	font-size: 1rem;
+}
+
+.selfbirth .next {
+	margin-top: 5.9375rem;
+}
+
+.selfbirth .returnBack {
+	margin-top: 1.25rem;
+}
+
+
+/* 配偶生日 */
+#spousebirth{display: none;}
+#spousebirth .child-num {
+	margin-top: 10vh;
+	text-align: center;
+}
+
+.spouseBirth .mar-top {
+	margin-top: 3.3125rem;
+}
+
+.spouseBirth .next {
+	margin-top: 4.6875rem;
+}
+
+/* 配偶和1孩生日 */
+#Onebirth {
+	position: relative;
+	display: none;
+}
+
+#Onebirth .child-num {
+	margin-top: 2.5625rem;
+	text-align: center;
+}
+
+.Onebirth .ph {
+	height: 3.75rem;
+}
+
+.Onebirth .mar-top {
+	margin-top: 1.875rem;
+}
+
+.Onebirth .next {
+	margin-top: 14%;
+}
+
+#Onebirth .roundel {
+	position: absolute;
+	bottom: 0.375rem;
+}
+
+/* 配偶和二孩 */
+#Twobirth{display: none;}
+#Twobirth .child-num {
+    margin: 6vh auto;
+	text-align: center;
+}
+
+#Twobirth {
+	position: relative;
+	margin-top:2.375rem;
+	
+}
+
+.twobirth .next {
+	margin-top: 5.25rem;
+}
+
+
+.twobirth .mar-top {
+	margin-top: 1.875rem;
+}
+
+
+
+/* 三孩生日 */
+#Threebirth {display: none;}
+#Threebirth .child-num {
+	margin-top: 2.5625rem;
+	text-align: center;
+}
+
+#Threebirth {
+	position: relative;
+	display: none;
+}
+
+.threebirth .next {
+	margin-top: 5rem;
+}
+
+.threebirth .ph {
+	height: 5rem;
+}
+
+.threebirth .mar-top {
+	margin-top: 1.875rem;
+}
+
+#Threebirth .roundel {
+	position: absolute;
+	margin-left: 29%;
+}
+
+#Threebirth .roundel span {
+	margin-right: 3%;
+}
+

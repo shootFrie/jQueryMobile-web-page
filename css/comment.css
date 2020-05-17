@@ -1,0 +1,161 @@
+html,
+ body {
+ 	position: relative;
+	width:100%;
+ 	height: 100%;
+ }
+
+ body {
+ 	background: #eee;
+ 	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+ 	font-size: 0.875rem;
+ 	color: #000;
+ 	margin: 0;
+ 	padding: 0;
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    -khtml-user-select: none; /*早期浏览器*/
+    user-select: none;
+}
+ }
+input:focus{
+       outline: none;
+} 
+div:focus{
+       outline: none;
+} 
+a:focus{
+       outline: none;
+} 
+img:focus{
+       outline: none;
+} 
+input:focus{
+       outline: none;
+} 
+img[src=""],img:not([src]){opacity:0;}
+img{border:0;}
+ .swiper-container {
+ 	width: 100%;
+ 	height: 100%;
+ }
+
+ .swiper-slide {
+ 	text-align: center;
+ 	font-size: 1.125rem;
+ 	background: #fff;
+
+ 	/* Center slide text vertically */
+ 	display: -webkit-box;
+ 	display: -ms-flexbox;
+ 	display: -webkit-flex;
+ 	display: flex;
+ 	-webkit-box-pack: center;
+ 	-ms-flex-pack: center;
+ 	-webkit-justify-content: center;
+ 	justify-content: center;
+ 	-webkit-box-align: center;
+ 	-ms-flex-align: center;
+ 	-webkit-align-items: center;
+ 	align-items: center;
+ }
+
+
+/* 圆标 */
+.roundel .swiper-pagination-bullet{
+	width:0.3125rem;
+	height:0.3125rem;
+	margin:1.4375rem 0.25rem;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet{
+	margin:1.4375rem 0.25rem;
+}
+
+/* 清除 */
+.clearfix {
+	zoom: 1;
+}
+.clearfix:after {
+	display: block;
+	clear: both;
+	content: "";
+	visibility: hidden;
+	height: 0;
+}
+
+/* 居中样式 */
+.contain {
+	width: 80%;
+	margin: 0px auto;
+}
+
+.contain {
+	text-align: center;
+}
+
+.Kown {
+	height: 1.25rem;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: #333333;
+	line-height: 1.25rem;
+	margin: 0 auto;
+}
+
+/* 返回上一步 */
+.returnBack {
+	margin-top: 5.375rem;
+}
+
+.returnBack .back {
+	height: 1.0625rem;
+	font-size: 0.75rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(71, 162, 255, 1);
+	line-height: 1.0625rem;
+}
+
+.re-text {
+	display: block;
+	height: 1.0625rem;
+	font-size: 0.75rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(153, 153, 153, 1);
+	line-height: 1.0625rem;
+	margin-top: 1.25rem;
+}
+
+/* flex布局 */
+.d-fix{
+	display: flex;
+}
+.d-fix .grid-cell{
+	flex: 1;
+}
+.commentWrap{
+	width:100%;
+	height:80%;
+}
+
+/* 子内容多余出来滚动 */
+.swiper-slide{
+	height:90%;
+	overflow: auto;
+	-webkit-overflow-scrolling:touch;
+}
+.swiper-container{
+	background-color: #fff;
+}
+
+/* 箭头 */
+.arrow {
+	width: 0.625rem;
+	height: 0.5625rem;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	transform: rotate(45deg);
+}

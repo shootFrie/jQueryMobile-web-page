@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="css/comment.css">
+		<link rel="stylesheet" href="css/review.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<title>数据调查</title>
+	</head>
+	<body>
+		<!-- 测试用户指数 -->
+		<div id="header">
+			<div class="circle-bar">
+				<div id="main" style="width:300px;height:300px; position:relative;top: -15%;left: -15%;"></div>
+
+				<div class="mask" >
+					<p class="percent" id="accNum">25234</p>
+					<p>测试用户数</p>
+				</div>
+			</div>
+
+			<div class="header-text">
+				<h2>技术模型</h2>
+				<p>测评文字</p>
+				<a href="evaluation.html"><input type="button" value="开始测评" class="btn"></a>
+			</div>
+		</div>
+
+		<!-- 步骤 -->
+		<div id="step">
+			<div class="step-title">
+				<h2><i></i>使用XX的<span class="wow flipInX" style="visibility: visible;animation-name:flipInX;">6个</span>步骤</h2>
+			</div>
+
+
+			<div class="col">
+				<div class="step-1 wow fadeIn" data-wow-delay="0.2s">
+					<span class="list">1</span>
+					<div class="text-div">评测</div>
+					<span class="pay">free</span>
+				</div>
+				<div class="step-1 wow fadeIn" data-wow-delay="0.4s">
+					<span class="list">2</span>
+					<div class="text-div">上传已有</div>
+					<span class="pay">免费</span>
+				</div>
+				<div class="step-1 wow fadeIn" data-wow-delay="0.6s">
+					<span class="list">3</span>
+					<div class="text-div">告知</div>
+					<span class="pay">免费</span>
+				</div>
+				<div class="step-1  wow fadeIn" data-wow-delay="0.7s">
+					<span class="list">4</span>
+					<div class="text-div">提出</div>
+					<span class="pay">免费</span>
+				</div>
+				<div class="step-1 wow fadeIn" data-wow-delay="0.9s">
+					<span class="list">5</span>
+					<div class="text-div">帮</div>
+					<span class="pay">免费</span>
+				</div>
+				<div class="step-2 wow fadeIn" data-wow-delay="1s">
+					<span class="list">6</span>
+					<div class="text-div">服务</div>
+					<span class="pay">免费</span>
+				</div>
+			</div>
+		</div>
+
+		
+		<script src="js/jquery.js"></script>
+		<script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script src="js/review.js"></script>
+		<script>
+			$(function() {
+				new WOW().init();
+			})
+		</script>
+	</body>
+</html>

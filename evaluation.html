@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>数据调查</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,maximum-scale=1" />
+		<link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.5.0/css/swiper.min.css" />
+		<link rel="stylesheet" href="css/comment.css" />
+		<link rel="stylesheet" href="css/gender.css">
+		<link rel="stylesheet" href="css/childNumber.css">
+		<link rel="stylesheet" href="css/income.css">
+		<link rel="stylesheet" href="css/lcalendar.css">
+	</head>
+	<body>
+		<div class="swiper-container roundel">
+			<div class="swiper-wrapper">
+				<!-- 个人性别 -->
+				<div class="swiper-slide   swiper-no-swiping">
+					<div id="gender" class="commentWrap">
+						<div class="contain clearfix">
+							<span class="Kown">让我们了解你的信息？</span>
+
+							<div class="c-middle" id="gen">
+								<div class="grid-cell">
+									<div id="male">
+										<img src="images/icon/male.png" alt="男" class="nex" title="男" >
+									</div>
+									<span>男</span>
+								</div>
+								<div class="grid-cell">
+									<div id="female">
+										<img src="images/icon/female.png" alt="女" class="nex" title="女">
+									</div>
+									<span>女</span>
+								</div>
+							</div>
+
+							<span class="secrecy">你所提供的信息仅限于家庭风险测评星保承诺不会泄露该信息</span>
+						</div>
+					</div>
+				</div>
+				<!-- 个人性别 end -->
+
+				<!-- 家庭结构 -->
+				<div class="swiper-slide   swiper-no-swiping">
+					<div id="familyStructure" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="famliy-wrap">
+
+								<div class="famliy nex no-child">
+									<img src="images/icon/single.png" class="famliy-img-1">
+									<span>单身</span>
+								</div>
+
+								<div class="famliy nex no-child">
+									<img src="images/icon/married.png" class="famliy-img-2">
+									<span>已婚无孩</span>
+								</div>
+
+								<div class="famliy nex">
+									<img src="images/icon/Marriedwithchildren.png" class="famliy-img-3">
+									<span>已婚有孩</span>
+								</div>
+
+							</div>
+
+							<!-- 返回上一步 */ -->
+							<div class="returnBack">
+								<a href="" class="back"> 返回上一步</a>
+								<span class="re-text">推荐方案的准确性，完全基于您提供的信息</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- 家庭结构 end -->
+
+				<!-- 孩子数量选择-->
+				<div class="swiper-slide   swiper-no-swiping">
+					<div id="childNumber" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix">
+								<div class="d-fix" id="numb">
+									<div class="grid-cell">
+										<a href="" class="num-1 nex">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<a href="" class="num-1 nex">2孩</a>
+									</div>
+									<div class="grid-cell">
+										<a href="" class="num-1 nex">3孩</a>
+									</div>
+								</div>
+
+								<!-- 返回上一步 */ -->
+								<div class="returnBack">
+									<a href="" class="back"> 返回上一步</a>
+									<span class="re-text">推荐方案的准确性，完全基于您提供的信息</span>
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				<!-- 孩子数量选择 end-->
+
+				<!-- 孩子性别选择  3个选项-->
+				<div class="swiper-slide" id="childNumber">
+
+					<!-- 1孩性别 -->
+					<div id="oneChild" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix  OneChild">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-1" id="checkMale" value="male" />
+										<label for="checkMale"></label>
+										<span class="child_1">男孩</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-1" id="checkFemale" value="female" />
+										<label for="checkFemale"></label>
+										<span class="child_1">女孩</span>
+									</div>
+								</div>
+
+								<!-- 返回上一步 */ -->
+								<div class="returnBack">
+									<a href="childNumber.html" class="back"> 返回上一步</a>
+									<span class="re-text">推荐方案的准确性，完全基于您提供的信息</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 1孩 end-->
+
+					<!-- 2孩性别 -->
+					<div id="twoChild" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix  OneChild twoChild">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-1" id="checkMale" value="male" />
+										<label for="checkMale"></label>
+										<span class="child_1">男孩</span>
+									</div>
+									<div class="grid-cell child_1">
+										<input type="radio" name="gender-1" id="checkFemale" value="female" />
+										<label for="checkFemale"></label>
+										<span class="child_1">女孩</span>
+									</div>
+								</div>
+
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">2孩</a>
+									</div>
+									<div class="grid-cell ">
+										<input type="radio" name="gender-2" id="checkMale_2" value="male_2" />
+										<label for="checkMale"></label>
+										<span class="child_1">男孩</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-2" id="checkMale_2" value="felmale_2" />
+										<label for="checkFemale"></label>
+										<span class="child_1">女孩</span>
+									</div>
+								</div>
+
+							</div>
+
+							<!-- 返回上一步 */ -->
+							<div class="returnBack">
+								<a href="childNumber.html" class="back"> 返回上一步</a>
+								<span class="re-text">推荐方案的准确性，完全基于您提供的信息</span>
+							</div>
+
+						</div>
+					</div>
+					<!-- 2孩性别 end -->
+
+					<!-- 3孩子性别 -->
+					<div id="threeChild" class="commentWrap">
+						<div class="contain Child-3">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+							<div class="child-num clearfix  OneChild threeChild">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-1" id="checkMale" value="male" />
+										<label for="checkMale"></label>
+										<span class="child_1">男孩</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-1" id="checkFemale" value="female" />
+										<label for="checkFemale"></label>
+										<span class="child_1">女孩</span>
+									</div>
+								</div>
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">2孩</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-2" id="" value="male" />
+										<label for="checkMale"></label>
+										<span class="child_1">男孩</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-2" id="" value="female" />
+										<label for="checkFemale"></label>
+										<span class="child_1">女孩</span>
+									</div>
+								</div>
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">3孩</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-3" id="checkMale" value="male" />
+										<label for="checkMale"></label>
+										<span class="child_1">男孩</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="gender-3" id="checkFemale" value="female" />
+										<label for="checkFemale"></label>
+										<span class="child_1">女孩</span>
+									</div>
+								</div>
+							</div>
+
+							<!-- 返回上一步 */ -->
+							<div class="returnBack">
+								<a href="childNumber.html" class="back"> 返回上一步</a>
+								<span class="re-text">推荐方案的准确性，完全基于您提供的信息</span>
+							</div>
+						</div>
+					</div>
+					<!-- 3孩子性别 end-->
+				</div>
+				<!-- 孩子性别选择 end -->
+
+				<!-- 赡养父母 -->
+				<div class="swiper-slide   swiper-no-swiping">
+					<div id="parent" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix parent">
+								<span class="parent-text">是否瞻养父母</span>
+								<div class="d-fix" id="supportParent">
+									<div class="grid-cell">
+										<a href="selfbirth.html" class="num-1 nex" title="">是</a>
+									</div>
+									<div class="grid-cell">
+										<a href="selfbirth.html" class="num-1 nex" title="不">否</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- 返回上一步 */ -->
+							<div class="returnBack">
+								<a href="familyStructure.html" class="back"> 返回上一步</a>
+								<span class="re-text">推荐方案的准确性，完全基于您提供的信息</span>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<!-- 赡养父母 end -->
+
+				<!-- 生日 5个选项-->
+				<div class="swiper-slide overSide swiper-no-swiping"  id="birthWrap">
+					<!-- 个人生日 -->
+					<div id="selfbirth" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">记录生日，保费优惠有提醒</span>
+
+							<div class="child-num clearfix OneChild selfbirth">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date1" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<input type="button" class="next" value="下一步" />
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- 个人生日 end-->
+
+					<!-- 已婚配偶生日 -->
+					<div id="spousebirth" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">记录生日，保费优惠有提醒</span>
+
+							<div class="child-num clearfix OneChild selfbirth spouseBirth">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date2" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">配偶</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date3" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<input type="button" class="next" value="下一步" />
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<!-- 已婚配偶生日 end-->
+
+					<!-- 1孩生日 -->
+					<div id="Onebirth" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">记录生日，保费优惠有提醒</span>
+
+							<div class="child-num clearfix selfbirth OneChild  Onebirth">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date4" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">配偶</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date5" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date6" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<input type="button" class="next" value="下一步" />
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- 1孩生日 end -->
+
+					<!-- 2孩生日 -->
+					<div id="Twobirth" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">记录生日，保费优惠有提醒</span>
+
+							<div class="child-num clearfix selfbirth OneChild  twobirth">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date7" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">配偶</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date8" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date9" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">2孩</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date10" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<input type="button" class="next" value="下一步" />
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!-- 2孩生日 end-->
+
+					<!-- 3孩生日 -->
+					<div id="Threebirth" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">记录生日，保费优惠有提醒</span>
+
+							<div class="child-num clearfix selfbirth OneChild  threebirth">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date11" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">配偶</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date12" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">1孩</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date13" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">2孩</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date14" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+
+								<div class="d-fix mar-top">
+									<div class="grid-cell">
+										<a class="num-1">3孩</a>
+									</div>
+									<div class="grid-cell">
+										<div>
+											<input type="text" name="start_date" id="start_date15" class="dataText" placeholder="1989-01-01" readonly="readonly" />
+											<span class="arrow">
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<input type="button" class="next" value="下一步" />
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 3孩生日 end-->
+
+				</div>
+				<!-- 生日 end -->
+
+				<!-- 本人收入 -->
+				<div class="swiper-slide">
+					<div id="income" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">量入为出，预算配置要合理</span>
+
+							<div class="child-num clearfix income ">
+
+								<div class="income-text">
+									<i class="icon"></i>
+									本人收入<input type="text" placeholder="税前年收入" class="blank" id="myincome"> <span>万</span>
+								</div>
+								<div class="comm-rol">
+									<a href=""><input type="button" class="next nex" value="下一步" /></a>
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+				<!-- 本人收入 end-->
+
+				<!-- 房贷 -->
+				<div class="swiper-slide">
+					<div id="houseLoad" class="commentWrap">
+						<div class="contain">
+							<span class="Kown">量入为出，预算配置要合理</span>
+
+							<div class="child-num clearfix houseLoan ">
+								<i class="icon"></i>
+								<div class="income-text">
+									车贷总额<input type="text" placeholder="如有请告知" class="blank"> <span>万</span>
+								</div>
+								<div class="income-text">
+									车贷月供<input type="text" placeholder="如有请告知" class="blank"> <span>万</span>
+								</div>
+								<div class="income-text">
+									还需还款<input type="text" placeholder="如有请告知" class="blank" id="myhouse"> <span>万</span>
+								</div>
+								<div class="comm-rol">
+									<span class="re-text">无房贷和车贷，可以直接跳过此步</span>
+									<a href=""><input type="button" class="next nex" value="下一步" /></a>
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 房贷 end-->
+
+				<!-- 车贷 -->
+				<div class="swiper-slide">
+					<div id="carLoad" class="commentWrap">
+						<div id="carLoad">
+							<div class="contain">
+								<span class="Kown">量入为出，预算配置要合理</span>
+
+								<div class="child-num clearfix carLoan ">
+									<i class="icon"></i>
+									<div class="income-text">
+										房贷总额<input type="text" placeholder="如有请告知" class="blank"> <span>万</span>
+									</div>
+									<div class="income-text">
+										房贷月供<input type="text" placeholder="如有请告知" class="blank"> <span>万</span>
+									</div>
+									<div class="income-text">
+										还需还款<input type="text" placeholder="如有请告知" class="blank" id="mycar"> <span>万</span>
+									</div>
+									<div class="comm-rol">
+										<span class="re-text">无房贷和车贷，可以直接跳过此步</span>
+										<a href=""><input type="button" class="next nex" value="下一步" /></a>
+										<div class="returnBack">
+											<a href="" class="back"> 返回上一步</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 车贷 end-->
+
+				<!-- 医保 2个-->
+				<div class="swiper-slide">
+					<!-- 本人医保 -->
+					<div id="myMedical" class="commentWrap">
+						<div class="contain myMedical">
+							<span class="Kown">医保有无，保费打不同</span>
+
+							<div class="child-num clearfix OneChild">
+								<a class="num-1">本人</a>
+								<div class="d-fix">
+									<div class="grid-cell">
+										<input type="radio" name="ismyMedical" id value="有" class="med">
+										<label for="ismyMedical"></label>
+										<span class="child_1">有</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyMedical" id value="无" class="med">
+										<label for="ismyMedical"></label>
+										<span class="child_1">无</span>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<a href=""><input type="button" class="next nex" value="下一步" /></a>
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 本人医保 end -->
+
+					<!-- 配偶医保 -->
+					<div id="spouseMedical" class="commentWrap">
+						<div class="contain spouseMedical">
+							<span class="Kown">医保有无，保费打不同</span>
+
+							<div class="child-num clearfix OneChild">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyMedical" id value="有" class="med">
+										<label for="ismyMedical"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyMedical" id value="无" class="med">
+										<label for="ismyMedical"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">配偶</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="isspouseMedical" id value=spouseMedical">
+										<label for="isspouseMedical"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="isspouseMedical" id value="spouseMedical">
+										<label for="isspouseMedical"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<a href="houseLoan.html"><input type="button" class="next nex" value="下一步" /></a>
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 配偶医保 -->
+				</div>
+				<!-- 医保 end -->
+
+				<!-- 出行 2个-->
+				<div class="swiper-slide">
+					<!-- 本人出行 -->
+					<div id="trip" class="commentWrap">
+						<div class="contain trip">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix OneChild">
+
+								<span class="Kown">是否出行自驾车</span>
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyTrip" value="" class="selfdri">
+										<label for="ismyTrip"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyTrip" value="非" class="selfdri">
+										<label for="ismyTrip"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+
+								<span class="Kown">是否经常出差</span>
+								<div class="d-fix">
+									<div class="grid-cell">
+										<a class="num-1">本人</a>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="isBusiness" value="" class="outwork">
+										<label for="isBusiness"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="isBusiness" value="不" class="outwork">
+										<label for="isBusiness"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<a href=""><input type="button" class="next nex" value="下一步" /></a>
+									<div class="returnBack">
+										<a href="" class="back"> 返回上一步</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 本人出行 end -->
+
+					<!-- 配偶出行 -->
+					<div id="spouseTrip" class="commentWrap">
+						<div class="contain spouseTrip">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix OneChild">
+								<div class="spouse-cell">
+									<span class="Kown">是否出行自驾车</span>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">本人</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyTrip" value="" class="selfdri">
+											<label for="ismyTrip"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyTrip" value="非" class="selfdri">
+											<label for="ismyTrip"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">配偶</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoTrip" id>
+											<label for="isSpoTrip"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoTrip" id>
+											<label for="isSpoTrip"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="spouse-cell">
+									<span class="Kown">是否经常出差</span>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">本人</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isBusiness" value="" class="outwork">
+											<label for="isBusiness"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isBusiness" value="非" class="selfdri">
+											<label for="isBusiness"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">配偶</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoBusiness" id>
+											<label for="isSpoBusiness"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoBusiness" id>
+											<label for="isSpoBusiness"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+									<a href="houseLoan.html"><input type="button" class="next nex" value="下一步" /></a>
+									<div class="returnBack">
+										<a href="" class="back">返回上一步</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 出行 end-->
+
+				<!-- 爱好 -->
+				<div class="swiper-slide">
+					<!-- 个人 -->
+					<div id="hobby" class="commentWrap">
+						<div class="contain hobby">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix OneChild">
+								<div class="d-fix">
+									<div class="grid-cell">
+										<span class="Kown">是否经常喝酒</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismydrink" id>
+										<label for="ismydrink"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismydrink" id>
+										<label for="ismydrink"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<span class="Kown">是否经常抽烟</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismysmoke" id>
+										<label for="ismysmoke"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismysmoke" id>
+										<label for="ismysmoke"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<span class="Kown">是否经常熬夜</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyStayup" id value="spouseMedical">
+										<label for="ismyStayup"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="ismyStayup" id value="spouseMedical">
+										<label for="ismyStayup"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+
+								<div class="d-fix">
+									<div class="grid-cell">
+										<span class="Kown">是否经常加班</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="isspouseMedical" id value="spouseMedical">
+										<label for="isspouseMedical"></label>
+										<span class="child_1">是</span>
+									</div>
+									<div class="grid-cell">
+										<input type="radio" name="isspouseMedical" value="spouseMedical">
+										<label for="isspouseMedical"></label>
+										<span class="child_1">否</span>
+									</div>
+								</div>
+<div class="comm-rol">
+								<a href="houseLoan.html"><input type="button" class="next nex" value="下一步" /></a>
+								<div class="returnBack">
+									<a href="" class="back"> 返回上一步</a>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 个人 end -->
+
+					<!-- 配偶 -->
+					<div id="spouseHobby" class="commentWrap">
+						<div class="contain spouseHobby">
+							<span class="Kown">了解家庭结构，保障不遗漏</span>
+
+							<div class="child-num clearfix OneChild">
+								<div class="spouse-cell">
+									<span class="Kown">是否经常喝酒</span>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">本人</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismydrink" id>
+											<label for="ismydrink"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismydrink" id>
+											<label for="ismydrink"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">配偶</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpodrink" id>
+											<label for="isSpodrink"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpodrink" id>
+											<label for="isSpodrink"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="spouse-cell">
+									<span class="Kown">是否经常抽烟</span>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">本人</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismysmoke" id>
+											<label for="ismysmoke"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismysmoke" id>
+											<label for="ismysmoke"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">配偶</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyMedical" id value="myMedical">
+											<label for="ismyMedical"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyMedical" id value="myMedical">
+											<label for="ismyMedical"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="spouse-cell">
+									<span class="Kown">是否经常熬夜</span>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">本人</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyStayup" id>
+											<label for="ismyStayup"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyStayup" id>
+											<label for="ismyStayup"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">配偶</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoStayup" id value="myMedical">
+											<label for="isSpoStayup"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoStayup" id value="myMedical">
+											<label for="isSpoStayup"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="spouse-cell">
+									<span class="Kown">是否经常加班</span>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">本人</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyOvertime" id>
+											<label for="ismyOvertime"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="ismyOvertime" id>
+											<label for="ismyOvertime"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+									<div class="d-fix">
+										<div class="grid-cell">
+											<a class="num-1">配偶</a>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoOvertime" id value="myMedical">
+											<label for="isSpoOvertime"></label>
+											<span class="child_1">是</span>
+										</div>
+										<div class="grid-cell">
+											<input type="radio" name="isSpoOvertime" id value="myMedical">
+											<label for="isSpoOvertime"></label>
+											<span class="child_1">否</span>
+										</div>
+									</div>
+								</div>
+								<div class="comm-rol">
+								<a href="houseLoan.html"><input type="button" class="next nex" value="下一步" /></a>
+								<div class="returnBack">
+									<a href="" class="back"> 返回上一步</a>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 配偶 end -->
+				</div>
+				<!-- 爱好 end-->
+
+				<!-- 服务机构 -->
+				<div class="swiper-slide">
+					<div id="service" class="commentWrap">
+						<div class="contain service">
+							<span class="Kown">服务机构，是否在身边</span>
+							<div class="child-num clearfix OneChild">
+								<div><i class="icon"></i></div>
+								<div><input type="text" class="inputTxt"></div>
+								<div class="comm-rol">
+								<a href="opening.html"><input type="button" class="next nex" value="下一步" /></a>
+								<div class="returnBack">
+									<a href="" class="back"> 返回上一步</a>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 服务机构 end -->
+			</div>
+			<div class="swiper-pagination"></div>
+
+			<!-- Add Scroll Bar -->
+			<script class="swiper-scrollbar" style="opacity:0;"></script>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="https://cdn.bootcss.com/layer/2.3/layer.js"></script>
+		<script src="js/evaluation.js"></script>
+		<script type="text/javascript">
+			var swiper = new Swiper('.swiper-container', {
+
+				slidesPerView: 'auto',
+				/* 子内容滚动 */
+				pagination: {
+					el: '.swiper-pagination',
+				},
+				/* 点击按钮到下一页 */
+				navigation: {
+					nextEl: '.nex',
+					prevEl: '.back',
+				},
+			});
+
+			/* 子内容滚动 */
+			var startScroll, touchStart, touchCurrent;
+			swiper.slides.on('touchstart', function(e) {
+				startScroll = this.scrollLeft;
+				touchStart = e.targetTouches[0].pageX;
+			}, true);
+			swiper.slides.on('touchmove', function(e) {
+				touchCurrent = e.targetTouches[0].pageX;
+				var touchesDiff = touchCurrent - touchStart;
+				var slide = this;
+				var onlyScrolling =
+					(slide.scrollWidth > slide.offsetWidth) && //allow only when slide is scrollable
+					(
+						(touchesDiff < 0 && startScroll === 0) || //start from left edge to scroll right
+						(touchesDiff > 0 && startScroll === (slide.scrollWidth - slide.offsetWidth)) || //start from right edge to scroll left
+						(startScroll > 0 && startScroll < (slide.scrollWidth - slide.offsetWidth)) //start from the middle
+					);
+				if (onlyScrolling) {
+					e.stopPropagation();
+				}
+			}, true);
+
+
+			/* 点击无孩到赡养父母 */
+			$('.no-child').click(function() {
+				swiper.slideTo(4);
+			});
+			
+			$('#parent .back').on('click',function(){
+				var famliy = sessionStorage.getItem('famliy');
+				if(famliy != '已婚有孩'){
+					swiper.slideTo(1);
+				}
+			});
+			
+			$('#service .next').click(function() {
+				location.href = "opening.html";
+			});
+		</script>
+		<script src="js/lcalendar.js"></script>
+	</body>
+</html>

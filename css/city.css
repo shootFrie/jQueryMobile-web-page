@@ -1,0 +1,84 @@
+#city{
+	background: #fff;
+	padding-top:1rem;
+	padding-left:1rem;
+}
+span{
+	font-size: 0.875rem;
+	color:#666;
+}
+.local{margin-top:0.75rem;}
+.local .cityName{
+	font-size:1rem;
+}
+.local .reconsider{
+	display: block;
+	float:right;
+	margin-right:0.8125rem;
+}
+.local .icon{
+	float:left;
+	margin-right:0.625rem;
+	display:inline-block;
+	width:1.125rem;
+	height:1.125rem;
+	background: url('../images/icon/reconsider.png') no-repeat center center;
+	background-size:1.125rem 1.125rem;
+}
+
+/* 省列表 */
+.cityList{
+	margin-top:0.875rem;
+	overflow: hidden;
+}
+.cityList span{
+	display:block;
+}
+.cityList .row-1{
+	border-top:1px solid #E3E3E3;
+	border-bottom:1px solid #E3E3E3;
+	height:2.5rem;
+}
+.cityList .row-1 .acron, .cityList .row-2 .acron{
+	width:4.75rem;
+	height:100%;
+	text-align: center;
+	line-height:2.5rem;
+}
+.cityList .row-1 .acron{
+	background-color:#4A97FF;
+	color:#fff;
+}
+.cityList .row-2{
+	position:relative;
+	border-top:none;
+	height:2.5rem;
+	background-color: #F7FBFF;
+}
+.cityList .row-2 .active{
+	color:#666;
+	font-weight:600;
+}
+/* 城市弹窗 */
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.provi-city{
+	border-top:1px solid #E3E3E3;
+	position:absolute;
+	top:-1px;
+	left:4.75rem;
+	background-color:#fff;
+	width: 100%;
+}
+.provi-city ul li{
+	height:2.5rem;
+	border-bottom:1px solid #E3E3E3;
+	font-size:0.8125rem;
+	padding-left: 1.0625rem;
+	line-height: 2.5rem;
+	color:#999;
+}
+.provi .borBottom{border-bottom:1px solid #E3E3E3;}

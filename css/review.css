@@ -1,0 +1,232 @@
+body{background: #fff;}
+#header {
+	width: 100%;
+	height: 25.4375rem;
+	background: #fff;
+}
+
+/* 圆 */
+.circle-bar {
+	width: 14.35rem;
+	height: 14.35rem;
+	border: 1px solid #E3F3FF;
+	box-shadow: 0px 2px 8px #E3F3FF;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3.375rem;
+	position: relative;
+	overflow: hidden;
+}
+
+/* 后代全部设圆 */
+.circle-bar,
+.circle-bar>* {
+	border-radius: 50%;
+}
+
+.circle-bar * {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+
+}
+
+.wrap>div {
+	position: absolute;
+	top: 1.3125rem;
+	left: 1.3125rem
+}
+
+.cirle {
+	width: 11.4375rem;
+	height: 11.4375rem;
+	border: 1px solid #E3F3FF;
+	box-shadow: inset 2px 2px 8px #E3F3FF;
+	background: linear-gradient(to top left, #3CC7FF, #4A97FF);
+	overflow: hidden;
+}
+
+.left {
+	width: 11.4375rem;
+	height: 11.4375rem;
+	clip: rect(0px, 88px, 196px, 0px);
+	background: #E3F0EF;
+	position: absolute;
+	transform: rotate(-60deg);
+}
+
+.right {
+	width: 11.4375rem;
+	height: 11.4375rem;
+	clip: rect(0px, 196px, 196px, 88px);
+	background: #E3F0EF;
+	position: absolute;
+}
+
+.mask {
+	width: 9.6875rem;
+	height: 9.6875rem;
+	background-color: #fff;
+	text-align: center;
+	color: #333;
+	border: 1px solid #E3F3FF;
+	box-shadow: 11px 2px 0.75rem #E3F3FF;
+}
+
+.mask :first-child {
+	width: 6.0625rem;
+	height: 1.75rem;
+	padding-bottom: 10px;
+	font-size: 28px;
+	font-family: ArialMT;
+	color: rgba(51, 51, 51, 1);
+	line-height: 0;
+}
+
+.mask :nth-child(2) {
+	width: 6.1875rem;
+	height: 1.6875rem;
+	font-size: 1rem;
+	padding-top: 1.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(102, 102, 102, 1);
+	line-height: 1.375rem;
+}
+
+/* 创新风险 */
+.header-text {
+	margin: 1.25rem auto;
+	width: 15.625rem;
+	text-align: center;
+}
+
+.header-text h2 {
+	width: 10.125rem;
+	height:  1.5625rem;
+	font-size: 1.125rem;
+	margin: 0 auto;
+	font-family: PingFangSC-Regular;
+	font-weight: 530;
+	color: rgba(51, 51, 51, 1);
+	line-height:  1.5625rem;
+
+}
+
+.header-text p {
+	height: 1.25rem;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(102, 102, 102, 1);
+	line-height: 1.25rem;
+	text-align: center;
+}
+
+.header-text input {
+	width: 10rem;
+	height: 2.5625rem;
+	background: linear-gradient(270deg, rgba(68, 172, 255, 1) 0%, rgba(74, 151, 255, 1) 100%);
+	border-radius: 0.3125rem;
+	border: none;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+	line-height: 1.25rem;
+	margin-top: 1rem;
+}
+
+/* 步骤 */
+#step {
+	width: 100%;
+	height:71%;
+	padding-bottom: 5%;
+	background: rgba(248, 250, 255, 1);
+	border-radius: 1.0625rem 1.0625rem 0 0;
+}
+
+/* 星保 */
+.step-title {
+	width: 13.125rem;
+	margin: 0 auto;
+	padding-top: 1.25rem;
+}
+
+.step-title i {
+	display: block;
+	padding-right: 0.75rem;
+	float: left;
+	width:  1.5625rem;
+	height: 1.6875rem;
+	background: url(../images/icon/step2.png) no-repeat;
+}
+
+.step-title h2 {
+	height:  1.5625rem;
+	font-size: 1.125rem;
+	font-family: PingFangSC-Medium;
+	color: rgba(51, 51, 51, 1);
+	line-height: 1.5625rem;
+	letter-spacing: 0.0625rem;
+	margin:0 auto;
+}
+
+.step-title span {
+	color: #3CC7FF;
+}
+
+/* 列表 */
+.col {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 1.875rem;
+}
+
+.step-1 {
+	border-left: 1px solid #4999FF;
+	height: 11vh;
+}
+
+.step-1 span ,.step-2 span {
+	display: block;
+}
+
+.step-2{}
+
+.list {
+	background-color: #fff;
+	border: 1px solid #4999FF;
+	border-radius: 50%;
+	color:#4999FF;
+	width: 1.125rem;
+	font-size: 0.875rem;
+	height: 1.125rem;
+	line-height: 1.125rem;
+	text-align: center;
+	float: left;
+	margin-left: -10px;
+}
+
+.text-div {
+	float: left;
+	padding-left: 0.9375rem;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(51, 51, 51, 1);
+	line-height: 1.25rem;
+
+}
+
+.pay {
+	float: right;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	font-weight: 400;
+	color: rgba(73, 153, 255, 1);
+	line-height: 1.25rem;
+}

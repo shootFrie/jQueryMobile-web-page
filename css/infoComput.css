@@ -1,0 +1,408 @@
+/* 信息解析 */
+.info-title {
+	display: block;
+	padding-top: 2.0625rem;
+	font-size: 2rem;
+	font-family: PingFangSC-Medium;
+	color: #056EE5;
+	margin-bottom: 0.9375rem;
+}
+
+.img-bg {
+	margin: 0.9375rem auto 15px auto;
+	width: 80%;
+	height: 100%;
+	min-height: 75vh;
+	background: url(../images/icon/infoAnalysis.png) no-repeat center top;
+	background-size: 21.125rem 27.5625rem;
+	margin-bottom: -7px;
+
+}
+
+.img-bg p {
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	color: #333;
+	width: 11.25rem;
+	text-align: left;
+	padding-left: 0.5rem;
+}
+
+.img-bg div {
+	width: 7.5rem;
+	margin: 0 auto;
+}
+
+.horizontal {
+	display: block;
+	width: 14.6875rem;
+	height: 0.875rem;
+	margin: 0 auto;
+	border: 1px solid #4A9FFF;
+	background: #4A9FFF;
+	border-radius: 0.4375rem;
+}
+
+.complete {
+	font-size: 1rem;
+	font-family: PingFangSC-Regular;
+	color: #666;
+	display: block;
+	/* margin-top: 1.3125rem; */
+
+}
+
+/* 计算完成 */
+.computation .contain {
+	padding-top: 2.75rem;
+}
+
+.computation .icon {
+	display: inline-block;
+	width: 11.75rem;
+	height: 11.75rem;
+	background: url(../images/icon/computation.png) no-repeat center center;
+	background-size: 11.75rem;
+	position: relative;
+	z-index: 99;
+}
+
+.foot {
+	width: 13.0625rem;
+	height: 1.4375rem;
+	background-color: #E7EEFF;
+	border-radius: 80%;
+	margin: -56px auto 8px auto;
+}
+
+.computation .contain .info-title {
+	font-size: 1.875rem;
+	line-height: 2.625rem;
+	margin-bottom: 1.25rem;
+}
+
+.computation .next {
+	margin-top: 4rem;
+}
+
+.computation .complete {
+	font-size: 0.875rem;
+}
+
+
+/* 风险解读 */
+#singleRisk {
+	display: none;
+}
+
+.risk .family {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	margin-top: 6px;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	color: #333;
+	padding-left: 0.8125rem;
+	min-height: 10vh;
+    line-height: 10vh;
+}
+
+.family .period {
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+	color: rgba(50, 137, 254, 1);
+	margin-left: 10px;
+}
+
+.family .arrow {
+	position: absolute;
+	top: 4vh;
+	right: 0.8125rem;
+}
+
+.fam-risk {
+	position: relative;
+	width: 100%;
+	background: #fff;
+	font-size: 0.875rem;
+	margin-top: 0.375rem;
+	min-height: 19vh;
+}
+
+.fam-risk .horizon {
+	margin: 0 auto;
+	width: 3.875rem;
+	height: 2.125rem;
+	border-bottom: 0.375rem solid #78B0FA;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Regular;
+}
+
+.fam-risk .horizon span {
+	display: block;
+	padding-top: 0.8125rem;
+	text-align: center;
+}
+
+.someone {
+	margin-top: 0.8125rem;
+	display: block;
+	background: #E1EFFF;
+	border: 1px solid #E1EFFF !important;
+	color: #333 !important;
+	text-align: center;
+	height: 2.5rem;
+	line-height: 2.8125rem;
+}
+
+.fam-wrap {
+	margin-top: 1.25rem;
+	width: 100%;
+	min-height: 10vh;
+	font-size: 0.875rem;
+	font-family: PingFangSC-Light;
+	font-weight: 300;
+	line-height: 1.25rem;
+	background: #fff;
+	color: #333;
+}
+
+.risk .next {
+	width: 100%;
+	height: 2.875rem;
+	line-height: 2.875rem;
+	text-align: center;
+	position: absolute;
+	background: #4A9FFF;
+	color: #fff;
+	bottom: 0;
+}
+
+/* 配偶/风险 */
+
+
+.fam-risk span {
+	display: block;
+}
+
+.fam-risk .blo-cell .xs {
+	margin-top: 0.875rem;
+	height: 2.5rem;
+	border: 1px solid #E1E1E1;
+	color: #E1E1E1;
+	text-align: center;
+	float: left;
+	line-height: 2.5rem;
+}
+
+.spouseRisk .fam-risk .blo-cell .xs {
+	width: 50%;
+}
+
+.fam-wrap .recom {
+	font-size: 1rem;
+	color: #4A9FFF;
+}
+
+/* 孩子风险 */
+#childRisk {
+	display: none;
+}
+
+.childRisk .fam-risk .blo-cell .xs {
+	width: 33.33%;
+}
+
+
+/* 折线图 */
+.chartRisk {
+	background: #fff;
+	text-align: center;
+	padding: 8vh 0 0 0;
+	height: 60vh;
+}
+
+.chartRisk span {
+	display: block;
+	font-size: 12px;
+	font-family: PingFangSC-Regular;
+	line-height: 17px;
+	margin: 0 auto 1.25rem auto;
+}
+
+#risk-chart {
+	padding: 0.6875rem 1rem 0 0.4375rem;
+	height: 330px;
+	margin: 0px auto -3.5125rem auto;
+}
+
+
+/* 弹窗 */
+.modal {
+	text-align: center;
+}
+
+.modal-dialog {
+	margin: 0 -0.0625rem;
+}
+
+.modal-content {
+	border-radius: 10px 10px 0 0 ;
+	width: 100%;
+}
+
+.inpu {
+	border: none;
+	border-bottom: 1px solid #4A9FFF;
+	padding-left: 12px;
+	margin-left: 12px;
+}
+
+.inp_1 {
+	width: 15rem;
+}
+
+.inp_2 {
+	width: 9.0625rem;
+}
+
+.modal .period {
+	color: #056EE5;
+	font-size: 22px;
+	display: block;
+	margin: 0.9375rem auto 0 auto;
+}
+.modal-contain{
+	width:90%;
+	margin:0 auto;
+}
+
+.modal-content div {
+	margin-top: 27px;
+	font-size: 0.75rem;
+	color: #333;
+}
+
+.verCode {
+	height: 1.8125rem;
+	background-color: #4A9FFF;
+	color: #fff;
+	width: 4.5rem;
+	border: none;
+	border-radius: 0.3125rem;
+	margin-left: 0.75rem;
+}
+
+.register {
+	width: 80%;
+	height: 2.75rem;
+	border-radius: 5px;
+	color: #fff;
+	text-align: center;
+	background-color: #D8D8D8;
+	border: none;
+	margin-bottom: 2.5625rem;
+}
+
+.modal .active {
+	background: #4A9FFF;
+}
+
+.modal.fade .modal-dialog {
+	/* transform: translate3d(0, 64.255vh, 0); */
+	width: 101%;
+    position: fixed;
+    bottom: -0.0625rem;
+}
+
+.modal.in .modal-dialog {
+	transform: translate3d(0, 0, 0);
+
+}
+
+/* 媒体查询 */
+@media only screen and (width:375px) and (height:812px) {
+	.chartRisk {
+		padding: 3.3125rem 0 0 0;
+	}
+
+	.fam-risk .padd-all {
+		padding: 1.4875rem;
+	}
+
+	.fam-risk .horizon {
+		width: 5.875rem;
+	}
+
+	.fam-risk .horizon span {
+		display: block;
+		padding-top: 0.425rem;
+		text-align: center;
+		font-size: 1.25rem;
+	}
+
+	.someone {
+		margin-top: 0.8125rem;
+		display: block;
+		background: #E1EFFF;
+		border: 1px solid #E1EFFF !important;
+		color: #333 !important;
+		text-align: center;
+		height: 3.5rem;
+		line-height: 3.8125rem;
+	}
+
+	.fam-risk .blo-cell .xs {
+		height: 3.5rem;
+		line-height: 3.5rem;
+	}
+
+}
+
+
+@media only screen and (width:411px) and (height:823px) {
+	.fam-risk .padd-all {
+		padding: 1.4875rem;
+	}
+
+	.fam-risk .horizon {
+		width: 5.875rem;
+	}
+
+	.fam-risk .horizon span {
+		display: block;
+		padding-top: 0.425rem;
+		text-align: center;
+		font-size: 1.25rem;
+	}
+
+	.someone {
+		margin-top: 0.8125rem;
+		display: block;
+		background: #E1EFFF;
+		border: 1px solid #E1EFFF !important;
+		color: #333 !important;
+		text-align: center;
+		height: 3.5rem;
+		line-height: 3.8125rem;
+	}
+
+	.fam-risk .blo-cell .xs {
+		height: 3.5rem;
+		line-height: 3.5rem;
+	}
+
+}
+/* 当宽度大于500 */
+@media screen and (min-width:570px){
+	.modal.fade .modal-dialog {
+    width: 100vw;
+}
+.modal-content {
+    width: 101vw;
+}
+.inp_1{width:20rem;}
+.inp_2{width:14.0625rem;}
+}
+

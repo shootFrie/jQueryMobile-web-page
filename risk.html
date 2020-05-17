@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>数据调查</title>
+		<link href="https://cdn.bootcss.com/twitter-bootstrap/4.3.0/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/comment.css">
+		<link rel="stylesheet" href="css/infoComput.css">
+		<script src="https://cdn.bootcss.com/echarts/4.2.1-rc1/echarts.min.js"></script>
+	</head>
+	<body>
+		<div id="risk">
+			<div class="chartRisk">
+				<div id="risk-chart" ></div>
+				<span>该数据基于中国人身保险业务经验生命表（2010-2013）</span>
+			</div>
+			<div style="margin-bottom:-10px;">
+				<!-- 单身期 -->
+				<div id="singleRisk" class="risk">
+					<div class="family">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-1"></div>
+								<div class="col-xs-9">您的家庭处于<span class="period">单身期</span></div>
+								<div clas="col-xs-2"><span class="arrow"></span></div>
+							</div>
+						</div>
+					</div>
+					<div class="family">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-1"></div>
+								<div class="col-xs-9">人群疾病统计数据</span></div>
+								<div clas="col-xs-2"><span class="arrow"></span></div>
+							</div>
+						</div>
+					</div>
+					<div class="fam-risk">
+						<div class="container">
+							<div class="horizon"><span>风险解读</span></div>
+						</div>
+						<div class="blo-cell">
+							<span class="someone">本人</span>
+						</div>
+						<div class="container padd-all">
+							<div class="fam-wrap">
+								没结婚前，家庭责任的负担比较小，正在事业上升期间可以先把保障型保险配齐，没有后顾之忧的去为梦想而奋斗
+							</div>
+						</div>
+						<div class="next" data-toggle="modal" data-target=".bs-example-modal-lg">
+							查看完整结果
+						</div>
+					</div>
+				</div>
+
+				<!-- 已婚无孩 -->
+				<div id="spouseRisk" class="risk spouseRisk">
+					<div class="family">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-1"></div>
+								<div class="col-xs-9">您的家庭处于<span class="period">成长期</span></div>
+								<div clas="col-xs-2"><span class="arrow"></span></div>
+							</div>
+						</div>
+					</div>
+					<div class="family">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-1"></div>
+								<div class="col-xs-9">人群疾病统计数据</span></div>
+								<div clas="col-xs-2"><span class="arrow"></span></div>
+							</div>
+						</div>
+					</div>
+					<div class="fam-risk">
+						<div class="container">
+							<div class="horizon"><span>风险解读</span></div>
+						</div>
+						<div class="container blo-cell">
+							<div class="row">
+								<span class="col-xs-6 xs someone">本人</span>
+								<span class="col-xs-6 xs ">配偶</span>
+							</div>
+						</div>
+						<div class="container padd-all">
+							<div class="fam-wrap">
+								<span class="recom">医疗（推荐，100万保障）</span>
+								
+							</div>
+						</div>
+						<div class="next" data-toggle="modal" data-target=".bs-example-modal-lg">
+							查看完整结果
+						</div>
+					</div>
+				</div>
+
+				<!-- 已婚有孩 -->
+				<div id="childRisk" class="risk spouseRisk childRisk">
+					<div class="family">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-1"></div>
+								<div class="col-xs-9">您的家庭处于<span class="period">形成期</span></div>
+								<div clas="col-xs-2"><span class="arrow"></span></div>
+							</div>
+						</div>
+					</div>
+					<div class="family">
+						<div class="container">
+							<div class="row">
+								<div class="col-xs-1"></div>
+								<div class="col-xs-9">人群疾病统计数据</span></div>
+								<div clas="col-xs-2"><span class="arrow"></span></div>
+							</div>
+						</div>
+					</div>
+					<div class="fam-risk">
+						<div class="container">
+							<div class="horizon"><span>风险解读</span></div>
+						</div>
+						<div class="container blo-cell">
+							<div class="row">
+								<span class="col-xs-4 xs someone">本人</span>
+								<span class="col-xs-4 xs ">配偶</span>
+								<span class="col-xs-4 xs ">孩子</span>
+							</div>
+						</div>
+						<div class="container clearfix padd-all">
+							<div class="fam-wrap clearfix">
+								<span class="recom">医疗（推荐，100万保障）</span>
+							</div>
+						</div>
+						<div class="next" data-toggle="modal" data-target=".bs-example-modal-lg">
+							查看完整结果
+						</div>
+					</div>
+				</div>
+				<!--已婚有孩 end -->
+			</div>
+			<!-- 弹窗 -->
+
+			<div class="modal fade bs-example-modal-lg .navbar-fixed-bottom" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+				<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-content">
+						<form action="">
+							<span class="period">会员注册</span>
+							<div class='modal-contain'>
+								<div>
+									手机号<input type="text" class="inp_1 inpu" id="phone" maxlength='11' onkeyup="this.value=this.value.replace(/\D/g,'')">
+								</div>
+								<div>
+									验证码 <input type="text" class="inp_2 inpu"> <input type="button" class="verCode" value="发送验证码">
+								</div>
+								<div>
+									<input type="button" value="注册并查看" class="register">
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- 弹窗end -->
+		</div>
+
+		<script src="https://cdn.bootcss.com/Chart.js/2.8.0/Chart.min.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="https://cdn.bootcss.com/twitter-bootstrap/4.3.0/js/bootstrap.min.js"></script>
+		<script src="js/canvas.js"></script>
+	</body>
+</html>
